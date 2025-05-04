@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soumya - Developer portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(19, 13, 67);
+            color: white;
+            font-family: "Poppins", sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(83, 87, 162);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style-type: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            text-decoration: none;
+            color: rgb(144, 154, 240);
+            font-size: 1.1rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 120px 0;
+            align-items: center;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 3rem;
+        }
+
+        .rightsection img {
+            height: 90%;
+            width: 60%;
+
+
+        }
+
+        .name {
+            color: rgb(105, 109, 237);
+        }
+
+        #element {
+            color: rgb(157, 157, 235);
+        }
+        .secondsection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        hr{
+            border: 0;
+            background-color: lavender;
+            height: 1px;
+            margin: 40px 80px;
+        }
+        .secondsection h1{
+            font-size: 1.9rem;
+        }
+        .text-gray{
+            color: gray;
+        }
+        .secondsection .box{
+            background-color: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+        .secondsection .vertical{
+            height: 93px;
+            width: 1px;
+           background-color: white;
+           margin: 0 140px;
+        }
+        .image-top{
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+        .vertical-text{
+            position: relative;
+            top: 70px;
+            width: 150px;
+
+        }
+        .vertical-des{
+            position: relative;
+            top: 80px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+
+        }
+        footer{
+            background-color: rgb(15, 15, 49);
+    
+           
+        }
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer > div{
+            width: 223px;
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+        .leftsection .buttons{
+            padding: 50px;
+        }
+        .leftsection .btn{
+            padding: 12px;
+            background: rgb(22, 22, 99);
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Soumya's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hii, My name is <span class="name">Soumya</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <button class="btn">Download Resume</button>
+                <button class="btn">Visit Github</button>
+            </div>
+            <div class="rightsection">
+                <img src="vecteezy_female-developer-with-desktop_24098521.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">What i have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class ="image-top" src="vecteezy_female-developer-with-desktop_24098521.png" alt="">
+                    <div class="vertical-text">
+                        HTML Developer (2022-2023)
+                    </div>
+                    <div class="vertical-des">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, nisi necessitatibus voluptate modi commodi laudantium at maxime temporibus numquam quia, assumenda aliquam tempore.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class ="image-top" src="vecteezy_female-developer-with-desktop_24098521.png" alt="">
+                    <div class="vertical-text">
+                        Nodejs Developer (2023-2024)
+                    </div>
+                    <div class="vertical-des">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, nisi necessitatibus voluptate modi commodi laudantium at maxime temporibus numquam quia, assumenda aliquam tempore.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class ="image-top" src="vecteezy_female-developer-with-desktop_24098521.png" alt="">
+                    <div class="vertical-text">
+                        js Developer(2023-2024)
+                    </div>
+                    <div class="vertical-des">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, nisi necessitatibus voluptate modi commodi laudantium at maxime temporibus numquam quia, assumenda aliquam tempore.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class ="image-top" src="vecteezy_female-developer-with-desktop_24098521.png" alt="">
+                    <div class="vertical-text">
+                        Java Developer (2024-2025)
+                    </div>
+                    <div class="vertical-des">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, nisi necessitatibus voluptate modi commodi laudantium at maxime temporibus numquam quia, assumenda aliquam tempore.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Soumya's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Services</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                    </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                    </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; www.soumyaportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>Web Developer</i>', '<i>Java Developer</i>', '<i>and Narrator.</i>'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
